@@ -1,5 +1,10 @@
 Hooks.once("ready", () => {
 
+  if (!globalThis.socketlib) {
+    console.error("Socketlib not found");
+    return;
+  }
+
   game.temporalSocket = socketlib.registerModule("temporal-instability");
 
   game.temporalSocket.register("showDialog", async () => {
