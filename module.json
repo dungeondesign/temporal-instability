@@ -1,0 +1,9 @@
+{
+  "name": "temporal-instability",
+  "title": "Temporal Instability Tools",
+  "version": "1.0.0",
+  "author": "Fernando",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "13",
+  "scripts": ["main.js"]
+}
