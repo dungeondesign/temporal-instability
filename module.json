@@ -1,11 +1,17 @@
 {
-  "name": "temporal-instability",
+  "id": "temporal-instability",
   "title": "Temporal Instability Tools",
   "description": "Player-targeted decision system",
   "version": "1.0.0",
-  "author": "Fernando",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "13",
+  "authors": [
+    {
+      "name": "Fernando"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
   "scripts": ["main.js"],
   "manifest": "https://raw.githubusercontent.com/dungeondesign/temporal-instability/main/module.json",
   "download": "https://github.com/dungeondesign/temporal-instability/archive/refs/heads/main.zip"
